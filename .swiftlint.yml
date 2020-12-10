@@ -1,0 +1,33 @@
+disabled_rules:
+  - large_tuple
+  - type_name
+  - shorthand_operator
+  - cyclomatic_complexity
+  - function_body_length
+  - type_body_length
+
+excluded:
+  - Carthage
+  - Pods
+
+force_cast: warning
+force_try: warning
+
+line_length:
+  warning: 160
+  error: 200
+
+indentation: 2
+
+file_length:
+  warning: 1000
+  error: 3000
+
+identifier_name:
+  allowed_symbols: "_$"
+  min_length: 2
+  max_length: 
+    warning: 90
+    error: 100
+    
+reporter: "xcode"

@@ -26,4 +26,21 @@ Minimum deployment target is `iOS 11`.
 
 ## Usage
 
-soon...
+### Capture
+
+1. Create instance of class `AVCombineCaptureService(superLayer:maxRecordedDuration:delegate:)`
+2. Call method `setupCaptureSession(position:)` for session init
+3. Use `startCapture(source:)` to start recording and `stopCapture()` to break recording
+
+### Crop video
+`crop(asset:type:startTime:endTime:_:)`
+
+### Generate video
+`generateVideo(from:_:)`
+`generateVideo(from:duration:_:)`
+
+### Merge videos
+`merge(assets:type:_:)`
+
+### Overlays
+`add(overlays:in:_:)`

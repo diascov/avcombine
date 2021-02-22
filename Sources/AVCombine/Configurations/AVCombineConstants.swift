@@ -24,4 +24,8 @@ struct AVCombineConstants {
   let frameTimescale: Double = 600
   let renderSize = UIScreen.main.nativeBounds.size
   let contentsAnimationKey = "contents"
+  let videoInputSettings: [String: Any] = [AVVideoCodecKey: AVVideoCodecType.h264,
+                                           AVVideoWidthKey: 720,
+                                           AVVideoHeightKey: 1280,
+                                           AVVideoCompressionPropertiesKey: [AVVideoAverageBitRateKey: 2300000]]
 }

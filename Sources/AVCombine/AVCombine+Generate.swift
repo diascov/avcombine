@@ -6,8 +6,8 @@
 //  Copyright © 2020 Dmitrii Iascov. All rights reserved.
 //
 
-import AVFoundation
 import UIKit
+import AVFoundation
 
 extension AVCombine {
 

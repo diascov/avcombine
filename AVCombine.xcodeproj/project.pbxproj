@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7240634F25EE32000064BC95 /* AVCombineCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240634E25EE32000064BC95 /* AVCombineCapture.swift */; };
 		72AEB312258507380048E9BB /* AVCombine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AEB2F62585047C0048E9BB /* AVCombine.framework */; platformFilter = ios; };
 		72AEB4AA25850CF60048E9BB /* AVCombineConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AEB49D25850CF60048E9BB /* AVCombineConstants.swift */; };
 		72AEB4AB25850CF60048E9BB /* AVCombineFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AEB49E25850CF60048E9BB /* AVCombineFileManager.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7240634E25EE32000064BC95 /* AVCombineCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCombineCapture.swift; sourceTree = "<group>"; };
 		7253DF1A25E3C8460055FE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72AEB2F62585047C0048E9BB /* AVCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AVCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AEB30D258507380048E9BB /* AVCombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVCombineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +54,7 @@
 		72B42C58258511080071F3E9 /* AVCombineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCombineTests.swift; sourceTree = "<group>"; };
 		72B42C59258511080071F3E9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		OBJ_13 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		OBJ_14 /* AVCombine.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVCombine.podspec; sourceTree = "<group>"; };
+		OBJ_14 /* AVCombine.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVCombine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		OBJ_15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,14 +82,15 @@
 			isa = PBXGroup;
 			children = (
 				72AEB4A625850CF60048E9BB /* AVCombine.h */,
+				72AEB4A725850CF60048E9BB /* AVCombine.swift */,
 				72AEB4A025850CF60048E9BB /* AVCombine+Overlay.swift */,
 				72AEB4A125850CF60048E9BB /* AVCombine+Crop.swift */,
 				72AEB4A225850CF60048E9BB /* AVCombine+OverlayViewModels.swift */,
 				72AEB4A325850CF60048E9BB /* AVCombine+Buffer.swift */,
 				72AEB4A425850CF60048E9BB /* AVCombine+Generate.swift */,
 				72AEB4A525850CF60048E9BB /* AVCombine+Merge.swift */,
-				72AEB4A725850CF60048E9BB /* AVCombine.swift */,
 				72AEB4A925850CF60048E9BB /* AVCombine+Export.swift */,
+				7240634E25EE32000064BC95 /* AVCombineCapture.swift */,
 				72AEB49C25850CF60048E9BB /* Configurations */,
 			);
 			path = AVCombine;
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72AEB4B025850CF60048E9BB /* AVCombine+Buffer.swift in Sources */,
+				7240634F25EE32000064BC95 /* AVCombineCapture.swift in Sources */,
 				72AEB4AB25850CF60048E9BB /* AVCombineFileManager.swift in Sources */,
 				72AEB4AE25850CF60048E9BB /* AVCombine+Crop.swift in Sources */,
 				72AEB4AC25850CF60048E9BB /* AVCombineError.swift in Sources */,
@@ -347,7 +351,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.1.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diascov.AVCombine;
@@ -421,7 +425,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.2;
+				MARKETING_VERSION = 0.1.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diascov.AVCombine;

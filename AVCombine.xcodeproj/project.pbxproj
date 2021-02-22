@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7253DF1A25E3C8460055FE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72AEB2F62585047C0048E9BB /* AVCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AVCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AEB30D258507380048E9BB /* AVCombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVCombineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AEB49D25850CF60048E9BB /* AVCombineConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCombineConstants.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		72AEB4A525850CF60048E9BB /* AVCombine+Merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCombine+Merge.swift"; sourceTree = "<group>"; };
 		72AEB4A625850CF60048E9BB /* AVCombine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCombine.h; sourceTree = "<group>"; };
 		72AEB4A725850CF60048E9BB /* AVCombine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCombine.swift; sourceTree = "<group>"; };
-		72AEB4A825850CF60048E9BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72AEB4A925850CF60048E9BB /* AVCombine+Export.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCombine+Export.swift"; sourceTree = "<group>"; };
 		72B42C58258511080071F3E9 /* AVCombineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCombineTests.swift; sourceTree = "<group>"; };
 		72B42C59258511080071F3E9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +79,6 @@
 		72AEB49B25850CF60048E9BB /* AVCombine */ = {
 			isa = PBXGroup;
 			children = (
-				72AEB4A825850CF60048E9BB /* Info.plist */,
 				72AEB4A625850CF60048E9BB /* AVCombine.h */,
 				72AEB4A025850CF60048E9BB /* AVCombine+Overlay.swift */,
 				72AEB4A125850CF60048E9BB /* AVCombine+Crop.swift */,
@@ -132,6 +131,7 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				7253DF1A25E3C8460055FE19 /* Info.plist */,
 				OBJ_15 /* README.md */,
 				OBJ_13 /* LICENSE.md */,
 				OBJ_14 /* AVCombine.podspec */,
@@ -339,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/AVCombine/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -347,7 +347,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 0.1.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diascov.AVCombine;
@@ -413,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/AVCombine/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -421,7 +421,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
+				MARKETING_VERSION = 0.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diascov.AVCombine;

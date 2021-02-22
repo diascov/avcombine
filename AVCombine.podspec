@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = 'AVCombine'
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.license       = { :type => 'GNU', :file => 'LICENSE.md' }
   spec.homepage      = 'https://github.com/diascov'
   spec.author        = { "Dmitrii Iascov" => "dmitrii.iascov@gmail.com" }

@@ -153,12 +153,16 @@ public final class AVCombineCaptureService: NSObject, AVCombineFileManager {
     if captureSession!.canAddOutput(audioOutput!) {
       captureSession!.addOutput(audioOutput!)
     }
+    #if targetEnvironment(simulator)
+    
+    #else
     let metadataOutput = AVCaptureMetadataOutput()
     metadataOutput.setMetadataObjectsDelegate(self, queue: metadataQueue)
     if captureSession!.canAddOutput(metadataOutput) {
       captureSession!.addOutput(metadataOutput)
     }
     metadataOutput.metadataObjectTypes = [.face]
+    #endif
   }
 
   private func setupCaptureInputs() {
